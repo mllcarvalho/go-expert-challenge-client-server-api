@@ -7,6 +7,10 @@
 *.dll
 *.so
 *.dylib
+*.db
+.DS_Store
+/server/cotacoes.db
+/client/cotacao.txt
 
 # Test binary, built with `go test -c`
 *.test
