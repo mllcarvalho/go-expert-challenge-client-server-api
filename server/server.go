@@ -14,7 +14,7 @@ import (
 const (
 	apiURL     = "https://economia.awesomeapi.com.br/json/last/USD-BRL"
 	dbName     = "cotacoes.db"
-	apiTimeout = 2000 * time.Millisecond
+	apiTimeout = 200 * time.Millisecond
 	dbTimeout  = 10 * time.Millisecond
 )
 
